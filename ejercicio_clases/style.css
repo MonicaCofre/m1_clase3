@@ -1,0 +1,39 @@
+@font-face{
+    font-family: "miFuente";
+    src: url(./starjedi/Starjedi.ttf);
+}  
+body{
+    font-family: "miFuente";
+    color: white;
+    background-image:url(space.jpg);
+}
+
+.malos{
+    background-color: red;
+}
+.rebeldes{
+    background-color: blue;
+}
+.soldados{
+    border: 3px solid red;
+}
+h1 {
+    letter-spacing: 3px;
+}
+h2 {
+    letter-spacing: 2px;
+}
+.apoyo{
+    text-align: center;
+}
+.naves{
+    text-transform: uppercase;
+}
+.droides {
+    width: 200px;
+    height: auto;
+}
+.droides1{
+    display: block;    
+    text-align: center;
+}
